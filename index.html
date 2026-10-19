@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viet Green Travel – Du Lịch Sinh Thái Bền Vững Cho Giới Trẻ</title>
+  <meta name="description" content="Viet Green Travel - Nền tảng du lịch sinh thái hàng đầu dành cho người trẻ thích đi nhẹ, yêu môi trường. Khám phá Cúc Phương, Côn Đảo, Mù Cang Chải, Tràm Chim trọn vẹn và bền vững.">
+  <meta name="keywords" content="du lịch sinh thái, du lịch xanh, Viet Green Travel, Cúc Phương, Côn Đảo, Mù Cang Chải, Tràm Chim, du lịch bền vững">
+  <meta name="author" content="Tô Vũ Hoàng Anh - 125001982">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <!-- AOS (Animate On Scroll) CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-container" aria-label="Điều hướng chính">
+      <a href="#hero" class="brand-logo" aria-label="Viet Green Travel Trang chủ">
+        <svg class="brand-icon" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="var(--mint-light)" />
+          <path d="M12 28 C 12 16, 22 8, 30 10 C 30 22, 20 30, 12 28 Z" fill="var(--leaf)" />
+          <circle cx="28" cy="12" r="5" fill="var(--sun)" />
+        </svg>
+        <span class="brand-text">Viet Green<span class="brand-accent">Travel</span></span>
+      </a>
+
+      <!-- Pure CSS Mobile Menu Toggle (Sử dụng Checkbox Hack) -->
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" aria-label="Mở hoặc đóng bảng chọn điều hướng">
+      <label for="navToggle" class="menu-toggle" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <ul class="nav-menu" id="primaryNav">
+        <li class="nav-item"><a href="#hero" class="nav-link">Trang Chủ</a></li>
+        <li class="nav-item"><a href="#destinations" class="nav-link">Điểm Đến Xanh</a></li>
+        <li class="nav-item"><a href="#values" class="nav-link">Giá Trị Bền Vững</a></li>
+        <li class="nav-item"><a href="#itinerary" class="nav-link">Hành Trình Mẫu</a></li>
+        <li class="nav-item"><a href="#newsletter" class="nav-link">Cẩm Nang E-Book</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Liên Hệ</a></li>
+        <li class="nav-item nav-cta-item">
+          <a href="#destinations" class="btn btn-nav">Đặt Chuyến Đi 🌿</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <header class="hero-content">
+        <p class="hero-badge animate__animated animate__fadeInDown">
+          🌱 Xu hướng Du Lịch Sinh Thái 2026 • Đi Nhẹ – Thở Sâu
+        </p>
+        <h1 class="hero-title animate__animated animate__fadeInDown animate__delay-1s">
+          Đi Nhẹ Để Thấy Rừng Xanh, Thở Sâu Để Chạm Bản Nguyên
+        </h1>
+        <p class="hero-desc animate__animated animate__fadeInUp animate__delay-2s">
+          Viet Green Travel đồng hành cùng bạn trẻ 20–35 tuổi khám phá thiên nhiên hoang sơ của Việt Nam với triết lý tác động tối thiểu: không rác thải nhựa một lần, tôn trọng văn hóa bản địa và bù đắp dấu chân sinh thái.
+        </p>
+        <p class="hero-actions animate__animated animate__fadeInUp animate__delay-2s">
+          <a href="#destinations" class="btn btn-primary btn-pulse">Khám Phá Điểm Đến 🍃</a>
+          <a href="#itinerary" class="btn btn-secondary">Xem Lịch Trình 24h ⏱️</a>
+        </p>
+        <section class="hero-stats animate__animated animate__fadeIn animate__delay-3s" aria-label="Thống kê tác động xanh">
+          <article class="stat-item">
+            <strong class="stat-number">100%</strong>
+            <span class="stat-label">Không Rác Nhựa</span>
+          </article>
+          <article class="stat-item">
+            <strong class="stat-number">4.800+</strong>
+            <span class="stat-label">Cây Đã Ươm Rừng</span>
+          </article>
+          <article class="stat-item">
+            <strong class="stat-number">12.500+</strong>
+            <span class="stat-label">Bạn Trẻ Đồng Hành</span>
+          </article>
+        </section>
+      </header>
+
+      <figure class="hero-visual animate__animated animate__fadeInRight animate__delay-1s">
+        <img src="assets/images/hero.jpg" alt="Bạn trẻ yêu thiên nhiên đứng trên đỉnh núi ngắm biển mây tại Việt Nam" width="800" height="450" class="hero-image">
+        <figcaption class="hero-caption">
+          <span class="caption-tag">📍 Đỉnh Gió Khau Phạ</span>
+          <p class="caption-quote">"Chỉ để lại dấu chân, chỉ mang về những kỷ niệm chữa lành."</p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- 2. DESTINATIONS SECTION (4 Điểm Đến) -->
+    <section class="destinations-section" id="destinations" data-aos="fade-up">
+      <header class="section-head" data-aos="fade-up">
+        <p class="section-badge">TUYỆT TÁC THIÊN NHIÊN VIỆT NAM</p>
+        <h2 class="section-title">4 Điểm Đến Sinh Thái Nổi Bật</h2>
+        <p class="section-desc">
+          Mỗi hành trình được tuyển chọn nghiêm ngặt theo tiêu chuẩn bảo tồn đa dạng sinh học và đồng hành cùng người dân địa phương.
+        </p>
+      </header>
+
+      <!-- Lưới 4 điểm đến -->
+      <section class="destinations-grid">
+
+        <!-- Card 1: Cúc Phương -->
+        <article class="destination-card card-cucphuong" data-aos="zoom-in-up" data-aos-delay="100">
+          <figure class="card-media">
+            <img src="assets/images/cuc-phuong.jpg" alt="Rừng mưa nhiệt đới Cúc Phương rợp bướm trắng bay trong nắng sớm" width="600" height="450" loading="lazy" class="card-img">
+            <span class="card-tag tag-forest">Ninh Bình • Rừng Mưa Cổ</span>
+          </figure>
+          <header class="card-body">
+            <p class="card-meta">
+              <span class="meta-item">⏱️ 2 Ngày 1 Đêm</span>
+              <span class="meta-item">🌿 Mức độ: Dễ dàng</span>
+            </p>
+            <h3 class="card-title">Vườn Quốc Gia Cúc Phương</h3>
+            <p class="card-text">
+              Lạc bước giữa thảm rừng nguyên sinh 25.000 ha, ngắm hàng triệu cánh bướm trắng bay dập dờn trong nắng sớm và thăm Trung tâm cứu hộ linh trưởng nguy cấp đầu tiên tại Đông Nam Á.
+            </p>
+            <footer class="card-highlight">
+              <span class="highlight-icon">🌱</span>
+              <span class="highlight-text">Cam kết: Mỗi du khách trồng 01 cây lim xanh tại phân khu phục hồi</span>
+            </footer>
+            <a href="#newsletter" class="btn-card">Xem Lịch Trình Chi Tiết →</a>
+          </header>
+        </article>
+
+        <!-- Card 2: Côn Đảo -->
+        <article class="destination-card card-condao" data-aos="zoom-in-up" data-aos-delay="200">
+          <figure class="card-media">
+            <img src="assets/images/con-dao.jpg" alt="Biển Côn Đảo nước xanh ngọc lam trong vắt và rùa biển bơi lội trên rạn san hô" width="600" height="450" loading="lazy" class="card-img">
+            <span class="card-tag tag-ocean">Bà Rịa - Vũng Tàu • Hải Đảo Xanh</span>
+          </figure>
+          <header class="card-body">
+            <p class="card-meta">
+              <span class="meta-item">⏱️ 3 Ngày 2 Đêm</span>
+              <span class="meta-item">🌊 Mức độ: Nghỉ dưỡng xanh</span>
+            </p>
+            <h3 class="card-title">Quần Đảo Xanh Côn Đảo</h3>
+            <p class="card-text">
+              Thức cùng kiểm lâm canh rùa biển đẻ trứng tại Hòn Bảy Cạnh, lặn ngắm san hô không chạm với kính sinh học và khám phá cung đường trekking rừng ngập mặn cổ nguyên sơ.
+            </p>
+            <footer class="card-highlight">
+              <span class="highlight-icon">🐢</span>
+              <span class="highlight-text">Cam kết: Tham gia làm sạch bãi cát và bảo tồn 100% tổ rùa ấp tự nhiên</span>
+            </footer>
+            <a href="#newsletter" class="btn-card">Xem Lịch Trình Chi Tiết →</a>
+          </header>
+        </article>
+
+        <!-- Card 3: Mù Cang Chải -->
+        <article class="destination-card card-mucangchai" data-aos="zoom-in-up" data-aos-delay="300">
+          <figure class="card-media">
+            <img src="assets/images/mu-cang-chai.jpg" alt="Ruộng bậc thang Mù Cang Chải rực rỡ sắc vàng mùa lúa chín hòa cùng sương núi" width="600" height="450" loading="lazy" class="card-img">
+            <span class="card-tag tag-sun">Yên Bái • Di Sản Kỳ Vĩ</span>
+          </figure>
+          <header class="card-body">
+            <p class="card-meta">
+              <span class="meta-item">⏱️ 3 Ngày 2 Đêm</span>
+              <span class="meta-item">🥾 Mức độ: Trekking vừa sức</span>
+            </p>
+            <h3 class="card-title">Di Sản Mù Cang Chải</h3>
+            <p class="card-text">
+              Chiêm ngưỡng kiệt tác ruộng bậc thang vàng óng mùa lúa chín, cùng phụ nữ người H’Mông dệt thổ cẩm bằng sáp ong và thưởng thức ẩm thực organic ngay tại bản người Thái mến khách.
+            </p>
+            <footer class="card-highlight">
+              <span class="highlight-icon">🌾</span>
+              <span class="highlight-text">Cam kết: 100% chi phí homestay và ẩm thực về trực tiếp tay đồng bào</span>
+            </footer>
+            <a href="#newsletter" class="btn-card">Xem Lịch Trình Chi Tiết →</a>
+          </header>
+        </article>
+
+        <!-- Card 4: Tràm Chim -->
+        <article class="destination-card card-tramchim" data-aos="zoom-in-up" data-aos-delay="400">
+          <figure class="card-media">
+            <img src="assets/images/tram-chim.jpg" alt="Vườn Quốc gia Tràm Chim với đầm sen ngát hương và đôi sếu đầu đỏ bay lượn lúc hoàng hôn" width="600" height="450" loading="lazy" class="card-img">
+            <span class="card-tag tag-coral">Đồng Tháp • Đất Ngập Nước Ramsar</span>
+          </figure>
+          <header class="card-body">
+            <p class="card-meta">
+              <span class="meta-item">⏱️ 2 Ngày 1 Đêm</span>
+              <span class="meta-item">🛶 Mức độ: Thư thái êm ả</span>
+            </p>
+            <h3 class="card-title">Vườn Quốc Gia Tràm Chim</h3>
+            <p class="card-text">
+              Chèo thuyền xuồng ba lá lướt trên cánh đồng hoa sen và súng ma nở tím biếc, lắng nghe bản hòa ca của hơn 230 loài chim thủy sinh và ngắm sếu đầu đỏ quý hiếm dưới ráng chiều Đồng Tháp.
+            </p>
+            <footer class="card-highlight">
+              <span class="highlight-icon">🪷</span>
+              <span class="highlight-text">Cam kết: Ủng hộ dự án bảo tồn sinh cảnh và khôi phục dòng chảy tự nhiên</span>
+            </footer>
+            <a href="#newsletter" class="btn-card">Xem Lịch Trình Chi Tiết →</a>
+          </header>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- 3. SUSTAINABLE CORE VALUES SECTION (Nhóm Giá Trị Bền Vững) -->
+    <section class="values-section" id="values" data-aos="fade-up">
+      <header class="section-head" data-aos="fade-up">
+        <p class="section-badge">TRIẾT LÝ HÀNH ĐỘNG</p>
+        <h2 class="section-title">Nhóm Giá Trị Bền Vững</h2>
+        <p class="section-desc">
+          Du lịch có trách nhiệm không phải là hạn chế trải nghiệm, mà là nâng tầm mỗi bước chân thành món quà cho Mẹ Thiên Nhiên.
+        </p>
+      </header>
+
+      <section class="values-grid">
+        <article class="value-card" data-aos="flip-left" data-aos-delay="100">
+          <span class="value-icon">🎒</span>
+          <h3 class="value-title">Zero-Waste & Đi Nhẹ</h3>
+          <p class="value-desc">
+            Nói không với đồ nhựa 1 lần. Viet Green trang bị cho mỗi bạn trẻ bình nước inox cách nhiệt, túi cói tái sử dụng và bản đồ số hóa không in ấn giấy.
+          </p>
+        </article>
+
+        <article class="value-card" data-aos="flip-left" data-aos-delay="200">
+          <span class="value-icon">🤝</span>
+          <h3 class="value-title">Tôn Trọng Bản Địa</h3>
+          <p class="value-desc">
+            Toàn bộ hướng dẫn viên, porter và nhà lưu trú đều là người dân địa phương. Chúng tôi bảo tồn nguyên vẹn phong tục tập quán và chia sẻ doanh thu công bằng.
+          </p>
+        </article>
+
+        <article class="value-card" data-aos="flip-left" data-aos-delay="300">
+          <span class="value-icon">🌱</span>
+          <h3 class="value-title">Bù Đắp Dấu Chân Carbon</h3>
+          <p class="value-desc">
+            Mỗi chuyến đi được tính toán lượng phát thải giao thông chính xác và bù đắp thông qua chiến dịch gieo hạt giống bản địa tại các khu rừng phòng hộ đầu nguồn.
+          </p>
+        </article>
+
+        <article class="value-card" data-aos="flip-left" data-aos-delay="400">
+          <span class="value-icon">🕊️</span>
+          <h3 class="value-title">Chạm Không Xâm Lấn</h3>
+          <p class="value-desc">
+            Quy mô nhóm nhỏ dưới 10 thành viên, giữ khoảng cách tối thiểu với động vật hoang dã, không tạo tiếng ồn lớn và không để lại bất kỳ vết tích nhân tạo nào.
+          </p>
+        </article>
+      </section>
+
+      <!-- Cam kết xanh -->
+      <aside class="values-pledge" data-aos="zoom-in">
+        <header class="pledge-header">
+          <span class="pledge-leaf">🌿</span>
+          <h3 class="pledge-title">Cam Kết Xanh Viet Green 2026</h3>
+        </header>
+        <p class="pledge-text">
+          "Chúng tôi trân trọng từng nhành cây, ngọn cỏ và nụ cười đồng bào. Mọi lợi nhuận được trích 5% trực tiếp vào Quỹ Phát Triển Sinh Thái Rừng Việt Nam."
+        </p>
+      </aside>
+    </section>
+
+    <!-- 4. SAMPLE 1-DAY ITINERARY SECTION (Hành Trình Mẫu) -->
+    <section class="itinerary-section" id="itinerary" data-aos="fade-up">
+      <header class="section-head" data-aos="fade-up">
+        <p class="section-badge">TRẢI NGHIỆM CHẬM RÃI</p>
+        <h2 class="section-title">Hành Trình Mẫu Một Ngày</h2>
+        <p class="section-desc">
+          "24 Giờ Lắng Nghe Hơi Thở Đại Ngàn Cúc Phương" – một ngày điển hình để sống hòa quyện cùng thiên nhiên, không thiết bị điện tử phiền toái.
+        </p>
+      </header>
+
+      <ol class="timeline" aria-label="Lịch trình mẫu 24 giờ tại Cúc Phương">
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="100">
+          <p class="step-time">
+            <time datetime="06:00">06:00</time>
+            <span class="time-period">Sáng Sớm</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Khởi Đầu</span>
+              <h3 class="step-title">Đón Bình Minh Sương & Thiền Thở Giữa Đại Ngàn</h3>
+            </header>
+            <p class="step-desc">
+              Thức dậy tại bungalow gỗ mộc, hít thở bầu không khí rừng mưa mát lành với nồng độ ion âm cao. Nhâm nhi tách trà thảo mộc Cúc Phương ấm nồng và khởi động ngày mới cùng bài tập thở sâu.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="200">
+          <p class="step-time">
+            <time datetime="08:30">08:30</time>
+            <span class="time-period">Buổi Sáng</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Khám Phá</span>
+              <h3 class="step-title">Trekking Đi Nhẹ – Theo Dấu Mùa Bướm Nở & Cây Cổ Thụ</h3>
+            </header>
+            <p class="step-desc">
+              Cùng chuyên gia kiểm lâm đi bộ 4km đường mòn rêu xanh, ngắm dải bướm trắng bay phủ khắp lối đi, tìm hiểu các loài dây leo ký sinh hàng trăm năm và dấu vết sinh học của linh trưởng quý hiếm.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="300">
+          <p class="step-time">
+            <time datetime="12:00">12:00</time>
+            <span class="time-period">Buổi Trưa</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Ẩm Thực</span>
+              <h3 class="step-title">Bữa Trưa Farm-to-Table Thuần Tự Nhiên</h3>
+            </header>
+            <p class="step-desc">
+              Thưởng thức bữa trưa dã ngoại bày trên lá chuối tươi: cơm lam nướng than, rau sắng hái tại vườn hữu cơ địa phương, nấm rừng xào hạt điều và canh chua trái sấu giải nhiệt thanh tao.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="400">
+          <p class="step-time">
+            <time datetime="14:30">14:30</time>
+            <span class="time-period">Buổi Chiều</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Bảo Tồn</span>
+              <h3 class="step-title">Thăm Trung Tâm Cứu Hộ & Gieo Mầm Cây Xanh</h3>
+            </header>
+            <p class="step-desc">
+              Trực tiếp quan sát voọc mông trắng được chăm sóc phục hồi; tự tay ươm mầm cây con trong bầu đất xơ dừa tái chế, gắn thẻ tên của bạn để nhân viên rừng chăm sóc trồng thành cây cổ thụ.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="500">
+          <p class="step-time">
+            <time datetime="17:30">17:30</time>
+            <span class="time-period">Hoàng Hôn</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Hoàng Hôn</span>
+              <h3 class="step-title">Chèo Thuyền Yên Lặng Ven Hồ Mạc Tĩnh Lặng</h3>
+            </header>
+            <p class="step-desc">
+              Lướt nhẹ mái chèo gỗ trên mặt hồ gương soi bóng núi đá vôi, ngắm ráng chiều vàng óng nhuộm sắc mây trời trong bầu không khí tĩnh mịch, chỉ có tiếng gió lùa qua kẽ lá.
+            </p>
+          </article>
+        </li>
+
+        <li class="timeline-step" data-aos="fade-up" data-aos-delay="600">
+          <p class="step-time">
+            <time datetime="19:30">19:30</time>
+            <span class="time-period">Ban Đêm</span>
+          </p>
+          <article class="step-card">
+            <header class="step-header">
+              <span class="step-badge">Kết Nối</span>
+              <h3 class="step-title">Trò Chuyện Quanh Bếp Lửa Mộc & Ngắm Ngân Hà</h3>
+            </header>
+            <p class="step-desc">
+              Quây quần cùng các bạn đồng hành lắng nghe chuyện nghề của người gác rừng, thưởng thức ngô nướng than hồng và ngửa cổ ngắm dải ngân hà lấp lánh không vướng chút ô nhiễm ánh sáng đô thị.
+            </p>
+          </article>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- 5. NEWSLETTER / LEAD FORM SECTION (Nhận E-Book) -->
+    <section class="newsletter-section" id="newsletter" data-aos="fade-up">
+      <article class="newsletter-card" data-aos="zoom-in">
+        <header class="newsletter-head">
+          <p class="newsletter-badge">🎁 QUÀ TẶNG THÀNH VIÊN MỚI</p>
+          <h2 class="newsletter-title">Nhận Miễn Phí E-Book "Cẩm Nang Du Lịch Đi Nhẹ 2026"</h2>
+          <p class="newsletter-desc">
+            Gồm 50 trang cẩm nang bỏ túi: checklist hành trang tối giản dưới 5kg, bản đồ các điểm cắm trại không dấu chân độc quyền và voucher ưu đãi 15% cho chuyến đi xanh đầu tiên của bạn.
+          </p>
+        </header>
+
+        <!-- Pure HTML5 Form với Target Anchor Feedback -->
+        <form class="newsletter-form" action="#newsletter-success" method="get">
+          <fieldset class="form-group-wrap">
+            <legend class="visually-hidden">Thông tin đăng ký nhận cẩm nang</legend>
+
+            <article class="form-field">
+              <label for="subscriberName" class="form-label">Họ và tên của bạn</label>
+              <input type="text" id="subscriberName" name="fullName" class="form-input" placeholder="Ví dụ: Hoàng Anh" required autocomplete="name">
+            </article>
+
+            <article class="form-field">
+              <label for="subscriberEmail" class="form-label">Địa chỉ Email nhận sách</label>
+              <input type="email" id="subscriberEmail" name="emailAddress" class="form-input" placeholder="hoanganh@gmail.com" required autocomplete="email">
+            </article>
+
+            <article class="form-field-checkbox">
+              <input type="checkbox" id="ecoCommitment" name="ecoPledge" class="form-checkbox" required>
+              <label for="ecoCommitment" class="checkbox-label">
+                Tôi cam kết: Không xả rác bừa bãi, bảo vệ động thực vật hoang dã và tôn trọng phong tục địa phương khi du lịch.
+              </label>
+            </article>
+
+            <button type="submit" class="btn btn-submit" id="submitBtn">
+              <span class="btn-text">Gửi Cẩm Nang Cho Tôi 🚀</span>
+            </button>
+          </fieldset>
+        </form>
+
+        <!-- Pure CSS Target Modal / Feedback Box -->
+        <aside class="newsletter-feedback-modal" id="newsletter-success" aria-live="polite">
+          <span class="feedback-icon">🎉</span>
+          <p class="feedback-text">
+            Tuyệt vời! E-Book <strong>"Cẩm Nang Du Lịch Đi Nhẹ 2026"</strong> đã được chuẩn bị để gửi tới bạn. Cảm ơn bạn đã chung tay bảo vệ du lịch xanh!
+          </p>
+          <a href="#newsletter" class="feedback-close" aria-label="Đóng thông báo">✕</a>
+        </aside>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" id="contact">
+    <section class="footer-top">
+      <section class="footer-col footer-brand-col">
+        <a href="#hero" class="brand-logo footer-logo">
+          <svg class="brand-icon" viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
+            <circle cx="20" cy="20" r="18" fill="var(--mint-light)" />
+            <path d="M12 28 C 12 16, 22 8, 30 10 C 30 22, 20 30, 12 28 Z" fill="var(--leaf)" />
+            <circle cx="28" cy="12" r="5" fill="var(--sun)" />
+          </svg>
+          <span class="brand-text">Viet Green<span class="brand-accent">Travel</span></span>
+        </a>
+        <p class="footer-slogan">
+          Hành trình du lịch sinh thái vì một Việt Nam xanh nguyên bản. Đồng hành cùng thế hệ trẻ đi nhẹ nhàng, sống trọn vẹn và tái sinh thiên nhiên.
+        </p>
+        <nav class="social-links" aria-label="Kênh mạng xã hội">
+          <a href="#" class="social-link" aria-label="Facebook Viet Green Travel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram Viet Green Travel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube Viet Green Travel">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </nav>
+      </section>
+
+      <section class="footer-col">
+        <h3 class="footer-title">Điểm Đến Xanh</h3>
+        <ul class="footer-nav-list">
+          <li><a href="#destinations" class="footer-link">Rừng Quốc Gia Cúc Phương</a></li>
+          <li><a href="#destinations" class="footer-link">Quần Đảo Xanh Côn Đảo</a></li>
+          <li><a href="#destinations" class="footer-link">Ruộng Bậc Thang Mù Cang Chải</a></li>
+          <li><a href="#destinations" class="footer-link">Đất Ngập Nước Tràm Chim</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-col">
+        <h3 class="footer-title">Về Viet Green</h3>
+        <ul class="footer-nav-list">
+          <li><a href="#values" class="footer-link">Triết Lý Zero-Waste</a></li>
+          <li><a href="#values" class="footer-link">Dự Án Ươm Rừng 2026</a></li>
+          <li><a href="#itinerary" class="footer-link">Lịch Trình Mẫu Đi Bộ</a></li>
+          <li><a href="#newsletter" class="footer-link">Cẩm Nang Du Lịch Bỏ Túi</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-col footer-contact-col">
+        <h3 class="footer-title">Văn Phòng Xanh</h3>
+        <address class="footer-address">
+          <p class="address-item">📍 Tầng 4, Tòa Nhà Eco-Hub, 88 Phố Tràng Thi, Hoàn Kiếm, Hà Nội</p>
+          <p class="address-item">📞 Hotline: <a href="tel:19006868" class="footer-contact-link">1900 6868</a> (8h00 - 20h00)</p>
+          <p class="address-item">✉️ Email: <a href="mailto:hello@vietgreentravel.vn" class="footer-contact-link">hello@vietgreentravel.vn</a></p>
+          <p class="address-item">🌱 Mã đăng ký lữ hành xanh: VN-ECO-2026-82</p>
+        </address>
+      </section>
+    </section>
+
+    <section class="footer-bottom">
+      <p class="copyright-text">
+        © 2026 Viet Green Travel. Thiết kế bởi <strong>Tô Vũ Hoàng Anh</strong> (MSSV: <strong>125001982</strong>). Bản quyền được bảo lưu.
+      </p>
+      <p class="green-signature">
+        Được xây dựng bằng tình yêu thiên nhiên • Tích hợp Animate.css &amp; AOS.
+      </p>
+    </section>
+  </footer>
+
+  <!-- AOS (Animate On Scroll) JS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Khởi tạo thư viện AOS theo đúng yêu cầu đề thi
+    AOS.init({
+      duration: 800, // Thời gian chạy hiệu ứng (ms)
+      once: true     // Chỉ chạy hiệu ứng một lần khi cuộn tới
+    });
+  </script>
+
+</body>
+</html>
