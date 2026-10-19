@@ -2,14 +2,5 @@
 
 Bài kiểm tra giữa kỳ, học phần Thiết kế Web, Trường Đại học Lạc Hồng.
 
-- **Sinh viên:** Tô Vũ Hoàng Anh – MSSV 125001982
-- **Live preview:** https://TEN-GITHUB.github.io/Anh_ToVuHoangAnh_125001982/
-- **Nhật ký prompt:** [PROMPT_LOG.md](PROMPT_LOG.md)
+ **Sinh viên:** Tô Vũ Hoàng Anh – MSSV 125001982
 
-## Cấu trúc
-```
-index.html   style.css   PROMPT_LOG.md   README.md
-assets/  (favicon.svg, images/)
-```
-
-Công nghệ: HTML5 ngữ nghĩa, CSS Variables, Flexbox/Grid, Animate.css và AOS (Animate On Scroll). Không có file JavaScript tự viết, chỉ nạp thư viện AOS từ CDN.
